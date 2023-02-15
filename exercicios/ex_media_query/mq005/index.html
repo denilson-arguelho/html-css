@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Responsivo</title>
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/media-query.css">
+  <script src="https://kit.fontawesome.com/6a631a5142.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>Meu Site</h1>
+    <i id="menu-mobile" class="fa-solid fa-bars" onclick="clickMenu()"></i>
+  </header>
+  <nav id="itensMenu">
+    <ul>
+      <li><a href="#">Home</a></li>
+     <li><a href="#">Produtos</a></li>
+      <li><a href="#">Login</a></li>
+     <li><a href="#">Cadastrar-se</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Testando Media Queries</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi facere beatae sequi autem in ipsum impedit, minus obcaecati quasi esse, molestias architecto cumque quod fugit veniam omnis sint, corrupti dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium maiores quis quae delectus magni vero, sapiente provident cumque consequatur rerum eum officia dolore mollitia ex laboriosam sequi? Perferendis, aut tempore?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi facere beatae sequi autem in ipsum impedit, minus obcaecati quasi esse, molestias architecto cumque quod fugit veniam omnis sint, corrupti dicta? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor aliquid perspiciatis alias neque voluptatem mollitia sint quo tenetur, doloribus sunt fuga blanditiis dolorem aspernatur expedita necessitatibus tempore quis amet! Suscipit?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi facere beatae sequi autem in ipsum impedit, minus obcaecati quasi esse, molestias architecto cumque quod fugit veniam omnis sint, corrupti dicta? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos corporis amet eum molestiae minus! Facere ipsa, maxime officia nobis exercitationem tempora cumque velit perferendis, obcaecati corporis corrupti in eligendi iure?</p>
+  </main>
+  <script>
+    function clickMenu(){
+     if( itensMenu.style.display == 'block'){
+      itensMenu.style.display = 'none';
+     }else{
+      itensMenu.style.display = 'block';
+     }
+    }
+  </script>
+ 
+</body>
+</html>

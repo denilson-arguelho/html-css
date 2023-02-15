@@ -1,0 +1,33 @@
+body{
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+background-color: rgb(11, 11, 146);
+align-items: center;
+}
+
+img{
+  height: 45px;
+}
+
+ul{
+  display: flex;
+  margin: 5px;
+  list-style-type: none;
+ 
+}
+
+a{
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: whitesmoke;
+}

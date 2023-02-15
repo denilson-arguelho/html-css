@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Model</title>
+  <style>
+    h1{
+      background-color: rgb(175, 62, 62);
+      color: #ffffff;
+      height: 300px;
+      width: 300px;
+      border: 7px solid black;
+      margin:  0px 10px 0px 10px;
+      padding: 0 10px;
+      text-align: center;
+    }
+    a{
+      background-color: rgb(64, 64, 179);
+      color: black;
+      font-weight: bold;
+      border: 7px solid gray;
+      padding: 4px;
+      text-decoration: none;
+      transition: 0.2s all ease-in-out;
+      text-transform: uppercase;
+    }
+
+    a:hover{
+      color: white;
+      transform: scale(1.1);
+      
+    }
+  </style>
+</head>
+<body>
+  <h1>Exemplo de Box Level</h1>
+  <p>Parágrafos também são exemplos de box level, mas <a href="#">links são exemplo de box inline-level</a></p>
+</body>
+</html>
